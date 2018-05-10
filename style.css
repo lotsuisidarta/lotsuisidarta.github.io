@@ -28,10 +28,10 @@ a:hover{
 }
 
 #banner {
-	background-image: url(https://images.unsplash.com/photo-1491747677313-84f7c8e10cc6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fd231a8eed81b26dcbb19f798db57340&auto=format&fit=crop&w=1950&q=80);
+	background-image: url(https://images.unsplash.com/photo-1517683005126-77eae06eff34?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e907fe0823b3e5861f4147a4e95a5aa4&auto=format&fit=crop&w=1789&q=80);
 	background-size: cover;
-	height: 700px;
-	padding: 250px;
+	height: 600px;
+	padding: 100px;
 	text-align: center;
 }
 
@@ -41,7 +41,8 @@ a:hover{
 
 #banner p {
 	color: white;
-	font-size: 30px;
+	font-size: 22px;
+	margin: 10px;
 	opacity: 0.75;
 	font-weight: lighter;
 }
@@ -49,6 +50,32 @@ a:hover{
 #banner p a {
 	font-size: 25px;
 	border-radius: 8px;
+}
+
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#strip1 {
+	background-image: url(https://images.unsplash.com/photo-1455058683937-c45857082982?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=20a6c5d5f8514587e3933d6e6bfd06ef&auto=format&fit=crop&w=2067&q=80);
+	background-size: cover;
+	height: 800px;
+	width: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+
+#strip2 {
+/*	background-image: url(https://images.unsplash.com/photo-1503326782762-2926a1fb8651?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f9ca604034e03b68d844857e276e3ebb&auto=format&fit=crop&w=1953&q=80);*/
+	background-size: cover;
+	height: 350px;
+	width: auto;
+	padding: 10px;
+	text-align: center;
 }
 
 .card {
