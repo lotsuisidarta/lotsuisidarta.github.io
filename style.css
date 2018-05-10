@@ -3,6 +3,7 @@ body {
 	color: black;
 	font-family: 'KaiTi', 'Open Sans', sans-serif;
 	margin: 0px;
+	font-size: 18px;
 }
 
 h1 {
@@ -14,6 +15,7 @@ h1 {
 
 h2 {
 	font-size: 25px;
+	color: red;
 }
 
 a {
@@ -28,23 +30,29 @@ a:hover{
 }
 
 #banner {
-	background-image: url(https://images.unsplash.com/photo-1517683005126-77eae06eff34?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e907fe0823b3e5861f4147a4e95a5aa4&auto=format&fit=crop&w=1789&q=80);
+/*	background-image: url(https://images.unsplash.com/photo-1517683005126-77eae06eff34?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e907fe0823b3e5861f4147a4e95a5aa4&auto=format&fit=crop&w=1789&q=80);*/
+/*	background-image: url(https://images.unsplash.com/photo-1441766333219-e89e835f4c1b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8b19fa4c32e38eb00508cf1b8a6af08b&auto=format&fit=crop&w=1950&q=80);*/
+/*	background-image: url(https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e4b09dbc0dee444b290cedd3de445aac&auto=format&fit=crop&w=1050&q=80);*/
+	background-image: url("images/banner_river.jpg");
 	background-size: cover;
-	height: 35%;
+	height: 100%;
 	padding: 100px;
 	text-align: center;
 }
 
 #banner h1 {
 	color: white;
+    text-shadow: 1px 1px black;
+	font-weight: normal;
 }
 
 #banner p {
 	color: white;
 	font-size: 22px;
 	margin: 10px;
-	opacity: 0.75;
+	opacity: 0.88;
 	font-weight: lighter;
+    text-shadow: 1px 1px grey;
 }
 
 #banner p a {
@@ -60,11 +68,12 @@ a:hover{
 }
 
 #strip1 {
-	background-image: url(https://images.unsplash.com/photo-1455058683937-c45857082982?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=20a6c5d5f8514587e3933d6e6bfd06ef&auto=format&fit=crop&w=2067&q=80);
+/*	background-image: url(https://images.unsplash.com/photo-1455058683937-c45857082982?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=20a6c5d5f8514587e3933d6e6bfd06ef&auto=format&fit=crop&w=2067&q=80);*/
+	background: rgb(240, 240, 240);
 	background-size: cover;
 	height: 90%;
 	width: auto;
-	padding: 45px;
+	padding: 10px;
 	text-align: center;
 }
 
@@ -84,9 +93,24 @@ a:hover{
 }
 
 .card {
-  padding: 40px;
-  font-weight: lighter;
-  text-align: center;
+	padding: 20px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.card img {
+	padding: 0px;
+}
+
+.card h3 {
+	padding: 0px;
+}
+
+.card li {
+    padding-right: 20%;
+    padding-left: 23%;
+   	text-align: left;
+	list-style-type:none;
 }
 
 #footer {
