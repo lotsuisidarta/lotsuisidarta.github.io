@@ -48,6 +48,8 @@ a:hover{
     padding: 70px;
  }
 
+/*banner in index.html begins*/
+
 #banner {
 /*	background-image: url(https://images.unsplash.com/photo-1517683005126-77eae06eff34?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e907fe0823b3e5861f4147a4e95a5aa4&auto=format&fit=crop&w=1789&q=80);*/
 /*	background-image: url(https://images.unsplash.com/photo-1441766333219-e89e835f4c1b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8b19fa4c32e38eb00508cf1b8a6af08b&auto=format&fit=crop&w=1950&q=80);*/
@@ -78,20 +80,114 @@ a:hover{
     text-shadow: 1px 1px grey;
 }
 
-#banner p a {
+/*#banner p a {
 	font-size: 24px;
 	border-radius: 8px;
+}*/
+
+.btn-primary {
+    color: white;
+	font-size: 22px;
+	border-radius: 8px;
+ }
+
+.btn-primary:hover {
+ 	color: white;
+	border: 3px solid #3295ff;
+ 	cursor: pointer;
+ }
+
+/*banner in index.html ends*/
+
+
+/*banner2 in articles.html begins*/
+
+#banner2 {
+	background-image: url("images/banner_river2.jpg");
+	background-size: cover;
+	height: 100%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+	opacity: 0.90;
+}
+
+#banner2 h1 {
+	color: white;
+    text-shadow: 1px 1px black;
+	font-weight: normal;
+}
+
+#banner2 p {
+	color: white;
+	font-size: 22px;
+	margin: 10px;
+	opacity: 0.9;
+	font-weight: lighter;
+    text-shadow: 1px 1px grey;
 }
 
 .btn-warning {
     color: white;
+	font-size: 22px;
+	border-radius: 8px;
  }
 
- .btn:hover {
+.btn-warning:hover {
  	color: white;
 	border: 3px solid #ffd351;
  	cursor: pointer;
  }
+
+/*banner2 in articles.html ends*/
+
+
+/*banner3 in articles.html begins*/
+
+#banner3 {
+	background-image: url("images/banner_river3.jpg");
+	background-size: cover;
+	height: 100%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+	opacity: 0.90;
+}
+
+#banner3 h1 {
+	color: white;
+    text-shadow: 1px 1px black;
+	font-weight: normal;
+}
+
+#banner3 p {
+	color: white;
+	font-size: 22px;
+	margin: 10px;
+	opacity: 0.9;
+	font-weight: lighter;
+    text-shadow: 1px 1px grey;
+}
+
+.btn-success {
+    color: white;
+	font-size: 22px;
+	border-radius: 8px;
+ }
+
+.btn-success:hover {
+ 	color: white;
+	border: 3px solid #52b86a;
+ 	cursor: pointer;
+ }
+
+/*banner3 in articles.html ends*/
+
+/*index.html container begins.*/
 
 .container-fluid {
     padding-right: 10px;
@@ -174,18 +270,61 @@ a:hover{
 	list-style-type:none;
 }
 
-li {
+/*li {
     padding-right: 20%;
     padding-left: 23%;
    	text-align: left;
 	list-style-type:none;
-}
+}*/
 
 dl, ol, ul {
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-left:10px;
 }
+
+/*index.html container ends.*/
+
+
+/*article.html setting begins.*/
+
+.container-article{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#article2 {
+	background-color: rgb(240, 240, 240);
+}
+
+/*artiel.html setting ends.*/
+
+
+/*resources.html setting begins.*/
+
+.container-section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#section2, #section4, #section6 {
+	background-color: rgb(240, 240, 240);
+}
+
+
+/*resources.html setting ends.*/
+
+.return {
+	font-size: 18px;
+	text-align: right;
+}
+
+
+/*footer begins.*/
 
 #footer {
 	background: rgb(220, 220, 220);
@@ -203,3 +342,5 @@ dl, ol, ul {
 #footer a:hover {
 	color: black;
 }
+
+/*footer ends.*/
