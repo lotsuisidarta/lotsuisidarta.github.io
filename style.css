@@ -263,14 +263,14 @@ a:hover{
 
 .card img {
 	padding: 0px;
-	width: 100px;
+	width: 6rem;
 }
 
 .card h2 {
 	padding: 0px;
 }
 
-.card li {
+.card-body li {
     padding-right: 0%;
     padding-left: 0%;
     margin-left: 3%;
@@ -279,6 +279,9 @@ a:hover{
 	font-size: 1.2rem;
 }
 
+.card-body p {
+   	text-align: left;
+}
 
 /*li {
     padding-right: 20%;
@@ -288,8 +291,8 @@ a:hover{
 }*/
 
 dl, ol, ul {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     padding-left:1%;
 }
 
