@@ -344,12 +344,13 @@ dl, ol, ul {
 
 /*footer begins.*/
 
-#footer {
+.footer {
 	background: rgb(230, 230, 230);
 	padding: 1%;
 	height: 15%;
 	font-size: 20px;
 	color: rgb(10, 10, 10);
+	text-align: center;
 }
 
 #footer ul {
