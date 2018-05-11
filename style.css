@@ -249,10 +249,17 @@ a:hover{
     padding: 3.25rem;
 }
 
-.col-xs-12, .col-md-4, .col-lg-4 {
+.card-footer {
+	position:relative;
+	text-align: right;
+    background-color: rgba(0,0,0,0.00);
+    border-top: 0px solid rgba(0,0,0,.125);
+}
+
+/*.col-xs-12, .col-md-4, .col-lg-4 {
 	padding-left: 5px !important;
 	padding-right: 5px !important;
-}
+}*/
 
 .card img {
 	padding: 0px;
@@ -305,10 +312,10 @@ dl, ol, ul {
 /*resources.html setting begins.*/
 
 .container-section{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 120px;
+	padding-right: 120px;
 }
 
 #section2, #section4, #section6 {
