@@ -298,12 +298,17 @@ dl, ol, ul {
 .container-article{
 	padding-top: 50px;
 	padding-bottom: 50px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 #article2 {
 	background-color: rgb(240, 240, 240);
+}
+
+.container-article h1 {
+	color: red;
+	font-weight: normal;	
 }
 
 /*artiel.html setting ends.*/
