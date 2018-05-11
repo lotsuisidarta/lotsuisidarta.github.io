@@ -311,7 +311,7 @@ dl, ol, ul {
 
 /*resources.html setting begins.*/
 
-.container-section{
+.container-section {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-left: 120px;
@@ -322,6 +322,10 @@ dl, ol, ul {
 	background-color: rgb(240, 240, 240);
 }
 
+.container-section h1 {
+	color: red;
+	font-weight: normal;	
+}
 
 /*resources.html setting ends.*/
 
