@@ -313,7 +313,7 @@ dl, ol, ul {
 	border: 0px;
 }
 
-.container-article li {
+.container-article .none li {
 	list-style-type: none;
 }
 
