@@ -48,6 +48,10 @@ a:hover{
     padding: 5%;
  }
 
+.btn {
+ 	margin: 1px;
+}
+
 /*banner in index.html begins*/
 
 #banner {
@@ -129,15 +133,15 @@ a:hover{
     text-shadow: 1px 1px grey;
 }
 
-.btn-warning {
+.btn-danger {
     color: white;
 	font-size: 22px;
 	border-radius: 8px;
  }
 
-.btn-warning:hover {
+.btn-danger:hover {
  	color: white;
-	border: 3px solid #ffd351;
+	border: 3px solid #de7b84;
  	cursor: pointer;
  }
 
