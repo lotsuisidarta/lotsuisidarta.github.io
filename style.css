@@ -313,6 +313,14 @@ dl, ol, ul {
 	border: 0px;
 }
 
+.container-article li {
+	list-style-type: none;
+}
+
+.container-article .disc li {
+	list-style-type: disc;
+}
+
 #article2 {
 	background-color: rgb(240, 240, 240);
 }
