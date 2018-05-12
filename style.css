@@ -45,7 +45,7 @@ a:hover{
     background: rgba(0, 0, 0, 0.3); /* Black background with transparency */
     color: white;
     width: 100%;
-    padding: 5%;
+    padding: 3%;
  }
 
 .btn {
@@ -101,6 +101,9 @@ a:hover{
  	cursor: pointer;
  }
 
+.logo {
+	width: 4.5%;
+}
 /*banner in index.html ends*/
 
 
@@ -110,8 +113,8 @@ a:hover{
 	background-image: url("images/banner_river2.jpg");
 	background-size: cover;
 	height: 100%;
-	padding-top: 8%;
-	padding-bottom: 8%;
+	padding-top: 6%;
+	padding-bottom: 6%;
 	padding-left: 0px;
 	padding-right: 0px;
 	text-align: center;
@@ -154,8 +157,8 @@ a:hover{
 	background-image: url("images/banner_river3.jpg");
 	background-size: cover;
 	height: 100%;
-	padding-top: 8%;
-	padding-bottom: 8%;
+	padding-top: 6%;
+	padding-bottom: 6%;
 	padding-left: 0px;
 	padding-right: 0px;
 	text-align: center;
