@@ -3,25 +3,28 @@
     padding: 0;
 }
 
-.navbar ul a:hover { color: blue !important; }
+.navbar ul a:hover {
+	color: #54574a !important;
+	font-weight: bolder !important;
+}
 
 body {
 	background-color: rgb(210, 210 210);
 	color: black;
 	font-family: 'KaiTi', 'Open Sans', sans-serif;
 	margin: 0px;
-	font-size: 1.3vw;
+	font-size: 20px;
 }
 
 h1 {
 	font-family: 'KaiTi', 'Roboto', sans-serif;
-	font-size: 3.5vw;
+	font-size: 3.2rem;
 	font-weight: lighter;
 	color:#69140E;
 }
 
 h2 {
-	font-size: 1.9vw;
+	font-size: 1.7rem;
 	color: red;
 	font-weight: lighter;
 }
@@ -38,7 +41,7 @@ a:hover{
 }
 
 p {
-	font-size:1.3vw;
+	font-size:1.3rem;
 }
 
 .container{
@@ -67,10 +70,6 @@ p {
     width: 100%;
     padding: 2%;
  }
-
-/*.div.content p {
-	font-size: 3vw;
-}*/
 
 .btn {
  	margin: 1px;
@@ -101,7 +100,7 @@ p {
 
 #banner p {
 	color: white;
-	font-size: 1.6vw;
+	font-size: 1.6rem;
 	margin: 10px;
 	opacity: 0.9;
 	font-weight: lighter;
@@ -126,7 +125,7 @@ p {
  }
 
 .logo {
-	max-width: 10vw;
+	max-width: 7rem;
 }
 /*banner in index.html ends*/
 
@@ -153,7 +152,7 @@ p {
 
 #banner2 p {
 	color: white;
-	font-size: 1.6vw;
+	font-size: 1.6rem;
 	margin: 10px;
 	opacity: 0.9;
 	font-weight: lighter;
@@ -197,7 +196,7 @@ p {
 
 #banner3 p {
 	color: white;
-	font-size: 1.6vw;
+	font-size: 1.6rem;
 	margin: 10px;
 	opacity: 0.9;
 	font-weight: lighter;
@@ -241,7 +240,7 @@ p {
 
 #banner-activity p {
 	color: white;
-	font-size: 1.6vw;
+	font-size: 1.6rem;
 	margin: 10px;
 	opacity: 0.9;
 	font-weight: lighter;
@@ -430,7 +429,7 @@ dl, ol, ul {
 }
 
 .container-section h1 {
-	font-size: 2.6vw;
+	font-size: 2.7rem;
 	color: red;
 	font-weight: normal;
 	text-align: center;
@@ -453,7 +452,7 @@ dl, ol, ul {
 }
 
 .container-activity h1 {
-	font-size: 2.6vw;
+	font-size: 2.7rem;
 	color: red;
 	font-weight: lighter;
 	text-align: center;	
@@ -480,9 +479,12 @@ dl, ol, ul {
 
 /*return component in article.html and resource.html begins.*/
 .return {
-	font-size: 1.2vw;
 	text-align: right;
 	padding-right: 2%;
+}
+
+.return p {
+	font-size: 1.2rem !important;
 }
 /*return component in article.html and resource.html ends.*/
 
@@ -493,20 +495,10 @@ dl, ol, ul {
 	padding-top: 1rem;
 	padding-bottom: 5rem;
 	height: 15%;
-	font-size: 1.2vw;
+	font-size: 1.25rem;
 	color: rgb(10, 10, 10);
 	text-align: center;
 }
-
-/*.footer h4 {
-	font-size: 1.5vw;
-	color: #660000;
-}
-
-.footer ul {
-    margin-top: 0;
-    margin-bottom: 0;
-}*/
 
 .footer a:hover {
 	color: blue;
