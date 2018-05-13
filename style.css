@@ -1,3 +1,10 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul a:hover { color: blue !important; }
+
 body {
 	background-color: rgb(210, 210 210);
 	color: black;
@@ -22,12 +29,12 @@ h2 {
 a {
 	text-decoration: none;
 	/*check*/
-	color:#3B559F;
+	color:#00007f;
 }
 
 a:hover{
 	text-decoration: none;
-	color: purple;
+	color: blue;
 }
 
 .container{
@@ -46,6 +53,15 @@ a:hover{
     color: white;
     width: 100%;
     padding: 3%;
+ }
+
+.container .content-bottom {           /*used for the banner in activity.html*/
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); /* Black background with transparency */
+    color: white;
+    width: 100%;
+    padding: 2%;
  }
 
 .btn {
@@ -107,7 +123,7 @@ a:hover{
 /*banner in index.html ends*/
 
 
-/*banner2 in articles.html begins*/
+/*banner2 in article.html begins*/
 
 #banner2 {
 	background-image: url("images/banner_river2.jpg");
@@ -148,10 +164,10 @@ a:hover{
  	cursor: pointer;
  }
 
-/*banner2 in articles.html ends*/
+/*banner2 in article.html ends*/
 
 
-/*banner3 in articles.html begins*/
+/*banner3 in article.html begins*/
 
 #banner3 {
 	background-image: url("images/banner_river3.jpg");
@@ -192,7 +208,52 @@ a:hover{
  	cursor: pointer;
  }
 
-/*banner3 in articles.html ends*/
+/*banner3 in article.html ends*/
+
+
+/*banner_activity in activity.html begins*/
+
+#banner-activity {
+	background-image: url("images/banner_ls1.png");
+	background-size: cover;
+	height: 100%;
+	padding-top: 23%;
+	padding-bottom: 0%;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+	opacity: 0.90;
+}
+
+#banner-activity h1 {
+	color: white;
+    text-shadow: 1px 1px black;
+	font-weight: normal;
+}
+
+#banner-activity p {
+	color: white;
+	font-size: 22px;
+	margin: 10px;
+	opacity: 0.9;
+	font-weight: lighter;
+    text-shadow: 1px 1px grey;
+}
+
+.btn-secondary {
+    color: white;
+	font-size: 22px;
+	border-radius: 8px;
+ }
+
+.btn-secondary:hover {
+ 	color: white;
+	border: 3px solid #acb0b3;
+ 	cursor: pointer;
+ }
+
+/*banner_activity in activity.html ends*/
+
 
 /*index.html container begins.*/
 
@@ -209,7 +270,7 @@ a:hover{
     column-gap: 0px;
 }
 
-.strip1 {
+.strip-grey {
 /*	background-image: url(https://images.unsplash.com/photo-1455058683937-c45857082982?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=20a6c5d5f8514587e3933d6e6bfd06ef&auto=format&fit=crop&w=2067&q=80);*/
 	background: rgb(240, 240, 240);
 	background-size: cover;
@@ -219,7 +280,7 @@ a:hover{
 	text-align: center;
 }
 
-.strip1 p {
+.strip-grey p {
 	font-size: 22px;
 	font-weight: normal;
 }
@@ -344,10 +405,10 @@ dl, ol, ul {
 	margin-left: 1.75rem;
 }
 
-/*artiel.html setting ends.*/
+/*article.html setting ends.*/
 
 
-/*resources.html setting begins.*/
+/*resource.html setting begins.*/
 
 .container-section {
 	padding-top: 5%;
@@ -365,21 +426,62 @@ dl, ol, ul {
 	font-weight: normal;	
 }
 
-/*resources.html setting ends.*/
+/*resource.html setting ends.*/
 
-/*return component in articles.html and resources.html*/
+/*activity.html setting begins.*/
+
+.container-activity{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	border: 0px;
+}
+
+#activity2 {
+	background-color: rgb(240, 240, 240);
+}
+
+.container-activity h1 {
+	font-size: 2.5rem;
+	color: red;
+	font-weight: lighter;
+	text-align: center;	
+}
+
+#timetable img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poster-image {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;     /*These three lines place pictues in the middle!*/
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*activity.html setting ends.*/
+
+/*return component in article.html and resource.html begins.*/
 .return {
 	font-size: 18px;
 	text-align: right;
 	padding-right: 2%;
 }
-
+/*return component in article.html and resource.html ends.*/
 
 /*footer begins.*/
 
 .footer {
 	background: rgb(230, 230, 230);
-	padding: 1%;
+	padding-top: 1rem;
+	padding-bottom: 5rem;
 	height: 15%;
 	font-size: 20px;
 	color: rgb(10, 10, 10);
