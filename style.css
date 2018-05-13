@@ -118,7 +118,7 @@ a:hover{
  }
 
 .logo {
-	width: 4.5%;
+	max-width: 8rem;
 }
 /*banner in index.html ends*/
 
