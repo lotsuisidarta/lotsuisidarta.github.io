@@ -157,7 +157,7 @@ p {
 
 .btn-danger {
     color: white;
-	font-size: 1.18rem;
+	font-size: 1.15rem;
 	border-radius: 0.4rem;
  }
 
@@ -341,6 +341,7 @@ p {
 }
 
 .card h2 {
+	text-size: 2rem;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
@@ -401,8 +402,8 @@ dl, ol, ul {
 	background-color: rgb(240, 240, 240);
 }
 
-.container-article h1 {
-	font-size: 2.5rem;
+.container-article h2 {
+	font-size: 2.7rem;
 	color: red;
 	font-weight: lighter;
 	text-align: center;	
@@ -428,8 +429,8 @@ dl, ol, ul {
 	background-color: rgb(240, 240, 240);
 }
 
-.container-section h1 {
-	font-size: 2.7rem;
+.container-section h2 {
+	font-size: 2.5rem;
 	color: red;
 	font-weight: normal;
 	text-align: center;
@@ -451,7 +452,7 @@ dl, ol, ul {
 	background-color: rgb(240, 240, 240);
 }
 
-.container-activity h1 {
+.container-activity h2 {
 	font-size: 2.7rem;
 	color: red;
 	font-weight: lighter;
