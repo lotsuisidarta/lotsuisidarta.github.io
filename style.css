@@ -12,7 +12,7 @@ body {
 	background-color: rgb(210, 210 210);
 	color: black;
 	font-family: 'KaiTi', 'Open Sans', sans-serif;
-	margin: 0px;
+	margin: 0rem;
 	font-size: 20px;
 }
 
@@ -72,7 +72,8 @@ p {
  }
 
 .btn {
- 	margin: 1px;
+ 	margin: 0.05rem
+ 	;
 }
 
 /*banner in index.html begins*/
@@ -86,41 +87,36 @@ p {
 	height: 100%;
 	padding-top: 8%;
 	padding-bottom: 8%;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 0rem;
+	padding-right: 0rem;
 	text-align: center;
 	opacity: 0.90;
 }
 
 #banner h1 {
 	color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: 0.05rem 0.05rem black;
 	font-weight: normal;
 }
 
 #banner p {
 	color: white;
 	font-size: 1.6rem;
-	margin: 10px;
+	margin: 0.5rem;
 	opacity: 0.9;
 	font-weight: lighter;
-    text-shadow: 1px 1px grey;
+    text-shadow: 0.05rem 0.05rem black;
 }
-
-/*#banner p a {
-	font-size: 24px;
-	border-radius: 8px;
-}*/
 
 .btn-primary {
     color: white;
-	font-size: 22px;
-	border-radius: 8px;
+	font-size: 1.4rem;
+	border-radius: 0.4rem;
  }
 
 .btn-primary:hover {
  	color: white;
-	border: 3px solid #3295ff;
+	border: 0.2rem solid #3295ff;
  	cursor: pointer;
  }
 
@@ -138,36 +134,36 @@ p {
 	height: 100%;
 	padding-top: 8%;
 	padding-bottom: 8%;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 0rem;
+	padding-right: 0rem;
 	text-align: center;
 	opacity: 0.90;
 }
 
 #banner2 h1 {
 	color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: 0.05rem 0.05rem black;
 	font-weight: normal;
 }
 
 #banner2 p {
 	color: white;
 	font-size: 1.6rem;
-	margin: 10px;
+	margin: 0.5rem;
 	opacity: 0.9;
 	font-weight: lighter;
-    text-shadow: 1px 1px grey;
+    text-shadow: 0.05rem 0.05rem black;
 }
 
 .btn-danger {
     color: white;
-	font-size: 19px;
-	border-radius: 8px;
+	font-size: 1.4rem;
+	border-radius: 0.4rem;
  }
 
 .btn-danger:hover {
  	color: white;
-	border: 3px solid #de7b84;
+	border: 0.2rem solid #de7b84;
  	cursor: pointer;
  }
 
@@ -182,36 +178,36 @@ p {
 	height: 100%;
 	padding-top: 8%;
 	padding-bottom: 8%;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 0rem;
+	padding-right: 0rem;
 	text-align: center;
 	opacity: 0.90;
 }
 
 #banner3 h1 {
 	color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: 0.05rem 0.05rem black;
 	font-weight: normal;
 }
 
 #banner3 p {
 	color: white;
 	font-size: 1.6rem;
-	margin: 10px;
+	margin: 0.5rem;
 	opacity: 0.9;
 	font-weight: lighter;
-    text-shadow: 1px 1px grey;
+    text-shadow: 0.05rem 0.05rem black;
 }
 
 .btn-success {
     color: white;
-	font-size: 22px;
-	border-radius: 8px;
+	font-size: 1.4rem;
+	border-radius: 0.4rem;
  }
 
 .btn-success:hover {
  	color: white;
-	border: 3px solid #52b86a;
+	border: 0.2rem solid #52b86a;
  	cursor: pointer;
  }
 
@@ -226,36 +222,36 @@ p {
 	height: 100%;
 	padding-top: 28%;
 	padding-bottom: 0%;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 0rem;
+	padding-right: 0rem;
 	text-align: center;
 	opacity: 0.90;
 }
 
 #banner-activity h1 {
 	color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: 0.05rem 0.05rem black;
 	font-weight: normal;
 }
 
 #banner-activity p {
 	color: white;
 	font-size: 1.6rem;
-	margin: 10px;
+	margin: 0.5rem;
 	opacity: 0.9;
 	font-weight: lighter;
-    text-shadow: 1px 1px grey;
+    text-shadow: 0.05rem 0.05rem black;
 }
 
 .btn-secondary {
     color: white;
-	font-size: 22px;
-	border-radius: 8px;
+	font-size: 1.4rem;
+	border-radius: 0.4rem;
  }
 
 .btn-secondary:hover {
  	color: white;
-	border: 3px solid #acb0b3;
+	border: 0.2rem solid #acb0b3;
  	cursor: pointer;
  }
 
@@ -265,16 +261,21 @@ p {
 /*index.html container begins.*/
 
 .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+}
+
+.row {
+	margin-left: 0rem;
+	margin-right: 0rem;
 }
 
 .no-gutter {
-    padding-right:0px;
-    padding-left:0px;
-    column-gap: 0px;
+    padding-right:0rem;
+    padding-left:0rem;
+    column-gap: 0rem;
 }
 
 .strip-grey {
@@ -283,12 +284,12 @@ p {
 	background-size: cover;
 	height: 50%;
 	width: auto;
-	padding: 0px;
+	padding: 0rem;
 	text-align: center;
 }
 
 .strip-grey p {
-	font-size: 22px;
+	font-size: 1.3rem;
 	font-weight: normal;
 }
 
@@ -307,12 +308,14 @@ p {
 }
 
 .card {
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 0rem;
+	padding-right: 0rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
 	font-weight: normal;
 	text-align: center;
-	border: 0px;
-	border-radius: 12px;
+	border: 0rem;
+/*	border-radius: 0.5rem;*/
 }
 
 .card-title {
@@ -321,14 +324,20 @@ p {
 }
 
 .card-body {
-    padding: 3.25rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .card-footer {
 	position:relative;
 	text-align: center;
     background-color: rgba(0,0,0,0.00);
-    border-top: 0px solid rgba(0,0,0,.125);
+    border-top: 0rem solid rgba(0,0,0,.125);
+    padding-top: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
 }
 
 /*.col-xs-12, .col-md-4, .col-lg-4 {
@@ -337,12 +346,13 @@ p {
 }*/
 
 .card img {
-	padding: 0px;
+	padding: 0rem;
 	width: 6rem;
 }
 
 .card h2 {
-	padding: 0px;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
 }
 
 .card h2:hover {
@@ -385,7 +395,7 @@ dl, ol, ul {
 	padding-bottom: 5%;
 	padding-left: 10%;
 	padding-right: 10%;
-	border: 0px;
+	border: 2rem;
 }
 
 .container-article .none li {
@@ -444,7 +454,7 @@ dl, ol, ul {
 	padding-bottom: 5%;
 	padding-left: 10%;
 	padding-right: 10%;
-	border: 0px;
+	border: 0rem;
 }
 
 #activity2 {
@@ -494,7 +504,7 @@ dl, ol, ul {
 	background: rgb(230, 230, 230);
 	padding-top: 1rem;
 	padding-bottom: 5rem;
-	height: 15%;
+	max-height: 15%;
 	font-size: 1.25rem;
 	color: rgb(10, 10, 10);
 	text-align: center;
