@@ -157,7 +157,7 @@ p {
 
 .btn-danger {
     color: white;
-	font-size: 1.22rem;
+	font-size: 1.18rem;
 	border-radius: 0.4rem;
  }
 
@@ -260,18 +260,6 @@ p {
 
 /*index.html container begins.*/
 
-.container-fluid {
-    padding-right: 0rem;
-    padding-left: 0rem;
-    margin-right: 0rem;
-    margin-left: 0rem;
-}
-
-.row {
-	margin-left: 0rem;
-	margin-right: 0rem;
-}
-
 .no-gutter {
     padding-right:0rem;
     padding-left:0rem;
@@ -324,10 +312,12 @@ p {
 }
 
 .card-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
 }
 
 .card-footer {
