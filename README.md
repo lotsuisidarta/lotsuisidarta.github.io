@@ -1,4 +1,4 @@
-# 濁水悉達多：關注福智問題專頁
+# 濁水悉達多：關注福智現象專頁
 ## 呼籲社會大眾關注福智，揭露福智高層問題。
 
 首頁網址：[lotsuisidarta.github.io](https://lotsuisidarta.github.io)
